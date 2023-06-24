@@ -1,0 +1,25 @@
+.fa-solid{
+    display:flex;
+    color: black;
+    
+}
+
+.promoções{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+.figure{
+    display: flex;
+    width: 250px;
+    height: auto;
+    background-color: rgb(0, 162, 255);
+    border-radius: 30px;
+    align-items: center;
+    padding: 35px;
+    margin: 20px;
+    
+}

@@ -10,8 +10,8 @@ a{
 header{
     display: flex;
     background-color: blue;
-    align-items: center;
-    height: 120px;   
+    height: 80px
+    
 }
 .titulo{
     color: white;
@@ -60,7 +60,8 @@ html, body{
 }
   
 body{
-    text-align: center;
+    align-items: center
+;
 }
   
   .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
