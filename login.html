@@ -10,26 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="login">
     <div class="retangulo">
         <div>
             <p style="text-align: center; margin-top: 10px; font-size: 30px; margin-bottom: 0px;">Sale Sports</p>
         </div>
         <div class="btncolor">
-            <button id="login"><a style="color:  rgb(0, 162, 255); text-decoration: none;" href="home2.html">Voltar</a></button>
+            <button id="voltar"><a style="color:  rgb(0, 162, 255); text-decoration: none;" href="home2.html">Voltar</a></button>
         </div>
         <div class="buttonsform">    
-            </div>
-                <form id="tela login">
-                <input type="Email" placeholder="Email" required>
-                <i class="fa-solid fa-envelope"></i>
-                <input type="senha" placeholder="Senha" required>
-                <i class="fa-solid fa-lock"></i>
+            <div>
+                <form id="telalogin">
+                    <input type="Email" placeholder="Email" required>
+                        <i class="fa-solid fa-envelope" id="icon1"></i>
+                    <input type="senha" placeholder="Senha" required>
+                        <i class="fa-solid fa-lock"id="icon2"></i>
                 <div class="divcheck">
-                <input type="checkbox" />
-                <span>Lembrar Senha ?</span>
+                    <input type="checkbox" />
+                    <span>Lembrar Senha ?</span>
+                </div>
+                
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit" id="entrar">Entrar</button>
         </form>
     </div>
     
