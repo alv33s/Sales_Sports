@@ -11,30 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body id="login">
-    <div class="retangulo">
-        <div>
-            <p style="text-align: center; margin-top: 10px; font-size: 30px; margin-bottom: 0px;">Sale Sports</p>
+    <section class="container-login">
+        <div class="telalogin">
+            <h2 id="palavra-login">Login</h2>
+            <h4 id="Sub-title">Sale Sports</h4>
+            <form id="formulariologin">
+                <label for="Email">Email</label>
+                <input type="email" class="entradas-login" placeholder="Email">
+                <label for="Senha"">Senha</label>
+                <input type="email" class="entradas-login" placeholder="Senha">
+                <button type="button" class="botaoDeEntrar">
+            </form>
         </div>
-        <div class="btncolor">
-            <button id="voltar"><a style="color:  rgb(0, 162, 255); text-decoration: none;" href="home2.html">Voltar</a></button>
-        </div>
-        <div class="buttonsform">    
-            <div>
-                <form id="telalogin">
-                    <input type="Email" placeholder="Email" required>
-                        <i class="fa-solid fa-envelope" id="icon1"></i>
-                    <input type="senha" placeholder="Senha" required>
-                        <i class="fa-solid fa-lock"id="icon2"></i>
-                <div class="divcheck">
-                    <input type="checkbox" />
-                    <span>Lembrar Senha ?</span>
-                </div>
-                
-            </div>
-            <button type="submit" id="entrar">Entrar</button>
-        </form>
-    </div>
-    
+    </section>
     
 </body>
+<script src="loja.js" defer></script>
 </html>

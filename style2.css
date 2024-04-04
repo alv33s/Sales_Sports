@@ -223,32 +223,7 @@ footer {
     width: 80%;
     font-size: 13px;
  }
- #telalogin {
-    position: relative;
-    margin-top: 80px;
-    width:300px;
-    background-color:  #ebebeb;
-    
- }
-#icon1{
-    position: absolute;
-    top:48px;
-    left: 15px;
-    right: 15px;
-    bottom: 48px;
-    
-}
-#icon2{
-    position: absolute;
-    top:120px;
-    left: 15px;
-    right:15px;
-    bottom:120px;
-    
-}
-#login{
-    background-color:  rgb(0, 162, 255);
-}
+
 @media screen and (max-width: 630px){
     .retangulo{
         left: 15%;
@@ -261,21 +236,47 @@ footer {
         left: 10%;        
     }
 }
-#entrar{
-    background-color: rgb(0, 162, 255);
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 8px 0 8px 15px;
-    font-size: 15px;
-    margin-top: 40px;
+
+.container-login{
+    background-color: skyblue;
+    height: 593px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    
+    
     
 }
 
 
 
+.telalogin{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    border: #0e0c0c solid 2px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
 
+#palavra-login{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sub-title{
+    
+}
+
+.formulariologin{
+    
+}
+
+.entradas-login{
+    height: 50px;
+    background-color: gainsboro;
+}
 
 
