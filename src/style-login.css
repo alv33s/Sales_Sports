@@ -1,0 +1,136 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+
+   
+}
+
+main.container-login{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 0;
+    
+    
+       
+}
+
+.telalogin{
+    background: linear-gradient(90deg, rgb(45, 40, 129) 0%, rgba(9,121,90,1) 0%, rgba(0,212,255,1) 100%);
+    width: 50%;
+    flex-direction: column;
+    right: 0;
+    padding: 170px;
+}
+
+main div h2{
+    color: #1f2a37;
+    font-size: 20px;
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+
+main div h4{
+    color: #1f2a37;
+    font-size: 30px;
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+
+
+
+.container-login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+
+}
+
+.container-login label{
+    color: #1f2a37;
+    font-size: 20px;
+    margin: 10px 0px 20px 65px;
+    text-align: left;
+}
+.container-login form input{
+    width: 80%;
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    align-self:center; 
+}
+
+.container-login form button{
+    background-color: #e5e7eb;
+    color: #000;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-self: center;
+
+
+}
+
+.container-login form p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 20px 0px 20px;
+    text-align: center;
+    
+    a{
+        margin-left: 5px;
+        color: rgb(0, 4, 255);
+   
+    }
+
+
+}
+
+
+
+.entradas-login{
+    height: 50px;
+    background-color: gainsboro;
+    width: 100px;
+
+    
+}
+
+/*.imagem-login*/
+
+.container-imagem-login{
+    width: 100dvh;
+    height: 100dvh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
+}
+
+.imagem-login{
+    width: 980px;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+
+}
+
