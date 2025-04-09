@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/style-cadastro.css">
+        <title>Sales Sports-cadastro</title>
+    </head>
+
+    <body>
+        <main class="container-cadastro" >
+
+            <picture class="imagem-cadastro">
+                <source srcset="./src/img/Imagem-Cadastro.jpg">
+                <img class="imagem" src="./src/img/Imagem-Cadastro.jpg alt=">
+            </picture>
+
+            <div class="container-form">
+                <form class="formulario-cadastro" >
+                    <h2>Sales Sports</h2>
+                    <h3>Cadastro</h3>
+
+                    <div class="container-inputs">
+                        <label for="nome" >Nome:</label>
+              
+                        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                        
+                        <label for="email" style="margin-left: 124px;">Email:</label>
+               
+                        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                        
+               
+                        <label for="cpf" >Cpf:</label>
+                  
+                        <input type="text" id="cpf"  placeholder="Digite seu CPF" required>
+                
+                        <label for="telefone"style="margin-left: 115px;">Telefone:</label>
+               
+                        <input type="tel" id="telefone" placeholder="Digite seu telefone" required>
+                    
+                        <label for="senha">Senha:</label>
+                
+                        <input type="password" id="senha" placeholder="Digite sua senha" required>
+         
+                        <label for="senhaConfirmada" style="margin-left:0% ;">Confirme sua senha:</label>
+              
+                        <input type="password" id="senhaConfirmada" placeholder="Digite a mesma senha" required>
+             
+                        <label for="dataNascimento">Data de Nascimento:</label>
+
+                        <input type="date" id="dataNascimento" required>
+            
+             
+                    </div>
+                    <div class="container-endereco">
+                        <h3>Endereço</h3>
+                        <label for="cep">CEP:</label>
+                        <br>
+                        <input type="text" id="cep" placeholder="Digite seu CEP" required>
+                        <br>
+
+                        <label for="estado">Estado:</label>
+                        <br>
+                        <input type="text" id="estado" placeholder="Digite seu estado" required>
+                        <br>
+
+                        <label for="cidade">Cidade:</label>
+                        <br>
+                        <input type="text" id="cidade" placeholder="Digite sua cidade" required>
+                        <br>
+                        <label for="bairro">Bairro:</label>
+                        <br>
+                        <input type="text" id="bairro" placeholder="Digite seu bairro" required>
+                        <br>
+                        <label for="rua">Rua:</label>
+                        <br>
+                        <input type="text" id="rua" placeholder="Digite sua rua" required>
+                        <br>
+                        <label for="numero">Número:</label>
+                        <br>
+                        <input type="text" id="numero" placeholder="Digite o número da sua casa" required>
+                        <br>
+                        <label for="complemento">Complemento:</label>
+                        <br>
+                        <input type="text" id="complemento" placeholder="Digite o complemento da sua casa">
+                        <br>
+                        <label for="termos">Aceito os termos de uso:</label>
+                        <br>
+                        <input type="checkbox" id="termos" required>
+                </div>
+                </form>
+            </div>
+
+
+        </main>
+
+    </body>
+
 </html>
