@@ -104,7 +104,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: rgb(0, 162, 255);
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
