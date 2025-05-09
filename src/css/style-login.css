@@ -105,8 +105,8 @@ main div h4{
     
     a{
         margin-left: 5px;
-        color:  rgb(90, 20, 220);
-   
+        color:  rgb(17, 0, 255);
+        text-decoration:underline;
     }
 
 
