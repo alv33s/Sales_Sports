@@ -13,9 +13,17 @@
 
 /*head*/
 .fa-solid{
-    display:flex;
     color:  rgb(0, 162, 255);
     
+}
+.fa-cart-shopping{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

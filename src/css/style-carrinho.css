@@ -1,0 +1,55 @@
+main{
+    text-align: end;
+    margin: 50px auto;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(236, 21, 21);
+    padding: 20px;
+}
+
+.container-carrinho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+    padding: 20px;
+    
+}
+
+.produtoNoCarrinho{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    background-color: blueviolet;
+    width: 90%;
+}
+
+.imgProdutoCarrinho{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.produtoNoCarrinho aside{
+    margin-left: 30px;
+}
+
+.adicionar-remover{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 10px;
+    
+}
+
+
+
+
+
+
+.valorTotal{
+    margin-right:  100px;
+}
